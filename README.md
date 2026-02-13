@@ -192,7 +192,7 @@ and deliver efficient, production-ready automation.
 
 1. Clone the repository
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/jomjamchnp/aura-assingment.git
    cd aura-assignment
 2.	Create environment file
 3.	Run automated tests : docker-compose up --build
