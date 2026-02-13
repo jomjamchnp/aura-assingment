@@ -2,7 +2,7 @@ const { defineConfig } = require('@playwright/test');
 
 module.exports = defineConfig({
   use: {
-    baseURL: process.env.BASE_URL || 'https://your-app-url.com',
+    baseURL: process.env.BASE_URL,
     headless: true,
     screenshot: 'only-on-failure',
     video:'retain-on-failure',

@@ -214,3 +214,17 @@ To inspect a failure:
 1. Navigate to the `test-results/` folder
 2. Open the screenshot or video file associated with the failed test
 3. Use these artifacts to quickly diagnose the root cause without re-running tests
+
+## Environment Variables
+
+Before running tests, make sure the following environment variables are defined
+in a `.env` file (you can copy from `.env.example`):
+BASE_URL=http://localhost:3000
+USER_EMAIL=test@test.com
+USER_PASSWORD=Password123!
+
+## Example Output
+Running 3 tests using 1 worker
+✓ login.spec.js
+✓ cart.spec.js
+✓ product.spec.js
