@@ -56,3 +56,16 @@ for a Playwright (JavaScript) test automation project.
 **Output Requirements**
 - Provide explanation first
 - Follow with a concrete implementation example
+
+## AI Suggestions That Were Rejected
+
+- Full Page Object Model implementation for all pages  
+- End-to-end tests covering all user journeys  
+- Complex Docker multi-stage optimizations  
+  **Reason:** Unnecessary complexity for the assignment scope
+
+---
+
+## Validation of Correctness
+- Tests were executed locally using Docker and Docker Compose
+- Playwright artifacts (screenshots and videos) were reviewed on failures
